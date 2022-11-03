@@ -10,7 +10,7 @@ Rutas:
 GET:/alumno ---> Trae los alumnos.
 GET:/alumno/id ---> Trae un alumno específico. 
 
-POST:/alumno ---> Se inserta un alumno de la base de datos. Ej: JSON: HEADER: Content-Type - applications/json {"nombre":"Nicolas","mail":"ndagos@gmail.com"}
+POST:/alumno ---> Se inserta un alumno de la base de datos. Ej: JSON: HEADER: Content-Type - applications/json {"nombre":"Alex","mail":"alexbulfon@gmail.com"}
 PUT: /alumno ---> edita un alumno. 
 
 DELETE:/alumno Elimina un alumno. Ejemplo: JSON HEADER: Content-Type - application/json {"id":6}
